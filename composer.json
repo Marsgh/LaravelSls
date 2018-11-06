@@ -1,5 +1,5 @@
 {
-  "name": "marsgh/laravelsls",
+  "name": "marsgh/aliyun-sls",
   "type": "library",
   "description": "AliYun SLS Log For Laravel5",
   "keywords": [
