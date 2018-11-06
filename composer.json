@@ -20,6 +20,9 @@
     "php": "~7.1"
   },
   "autoload": {
+    "classmap": [
+      "src/Aliyun"
+    ],
     "psr-4": {
       "Marsgh\\AliYunSls\\": "src"
     }
