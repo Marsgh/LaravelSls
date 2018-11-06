@@ -1,7 +1,7 @@
 {
   "name": "marsgh/laravel-sls",
   "type": "library",
-  "description": "Aliyun SLS Log For Laravel",
+  "description": "AliYun SLS Log For Laravel5",
   "keywords": [
     "laravel",
     "Marsgh",
@@ -16,12 +16,11 @@
   "license": "MIT",
   "require": {
     "illuminate/support": "~5.5",
-    "php": "~7.1",
-    "aliyun/aliyun-log-php-sdk": "^1.0"
+    "php": "~7.1"
   },
   "autoload": {
     "psr-4": {
-      "Marsgh\\LaravelSLS\\": "src"
+      "Marsgh\\AliYunSls\\": "src"
     }
   }
 }
