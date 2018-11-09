@@ -36,7 +36,8 @@ class AliYunSlsServiceProvider  extends ServiceProvider{
     {
         $this->app->singleton('aliyun.sls', function ($app) {
             $config = $app->config->get('aliyun-sls');
-            return new AliYunSls($config['endpoint'], $config['access_key_id'], $config['access_key'], $config['project'], $config['logstore']);
+            return new AliYunSls(env('ALIYUN_SLS_ENDPOINT',$config['endpoint']), env('ALIYUN_SLS_ACCESS_KEY_ID',$config['access_key_id']),
+                env('ALIYUN_SLS_ACCESS_KEY',$config['access_key']), env('ALIYUN_SLS_PROJECT',$config['project']), env('ALIYUN_SLS_LOGSTORE',$config['logstore']));
         });
     }
 
