@@ -5,7 +5,7 @@
  * Date: 2018/11/6
  * Time: 13:56
  */
-namespace Marsgh\AliYunSls\Facades;
+namespace AliYunSls\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

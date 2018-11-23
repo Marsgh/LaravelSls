@@ -6,7 +6,7 @@
  * Time: 10:39
  */
 
-namespace Marsgh\AliYunSls;
+namespace AliYunSls;
 
 use Aliyun_Log_Client;
 use Aliyun_log_Models_ListLogstoresRequest;

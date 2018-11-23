@@ -6,7 +6,7 @@
  * Time: 10:40
  */
 
-namespace Marsgh\AliYunSls;
+namespace AliYunSls;
 use Illuminate\Support\ServiceProvider;
 
 class AliYunSlsServiceProvider  extends ServiceProvider{

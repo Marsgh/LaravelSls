@@ -24,7 +24,7 @@
       "src/Aliyun"
     ],
     "psr-4": {
-      "Marsgh\\AliYunSls\\": "src"
+      "AliYunSls\\": "src"
     }
   },
   "minimum-stability": "stable"
